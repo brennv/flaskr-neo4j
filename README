@@ -1,0 +1,13 @@
+                         / Flaskr-neo4j /
+
+                 a minimal blog application
+
+
+    ~ What is Flaskr-neo4j?
+
+      A neo4j powered thumble blog application
+
+    ~ Attributions
+
+      [mitsuhiko/flask/examples/flaskr](https://github.com/mitsuhiko/flask/tree/master/examples/flaskr/)
+      [nicolewhite/neo4j-flask](https://github.com/nicolewhite/neo4j-flask)
