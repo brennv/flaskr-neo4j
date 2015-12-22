@@ -1,3 +1,4 @@
+
                          / Flaskr-neo4j /
 
                  a minimal blog application
@@ -7,10 +8,32 @@
 
       A neo4j powered thumble blog application
 
-    ~ Attributions
+    ~ How do I use it?
+
+      1. clone the repo and step into it
+
+          git clone git@github.com:brennan-v-/flaskr-neo4j.git
+          cd flaskr-neo4j
+
+      2. create a virtual environment and install packages
+
+          virtualenv -p python3 venv
+          source venv/bin/activate
+          pip install flask
+          pip install py2neo
+
+      3. start the application
+
+          python flaskr.py
+
+         the application will greet you on
+         http://localhost:5000/
+
+    ~ Attributions:
 
       mitsuhiko/flask/examples/flaskr 
       https://github.com/mitsuhiko/flask/tree/master/examples/flaskr/
-      
+
       nicolewhite/neo4j-flask
       https://github.com/nicolewhite/neo4j-flask
+      
