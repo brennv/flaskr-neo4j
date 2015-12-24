@@ -12,7 +12,7 @@
 
     ~ How do I use it?
 
-      1. download, install and start neo4j from http://neo4j.com
+      1. install and start neo4j from http://neo4j.com
 
       2. clone the repo and step into it
 
