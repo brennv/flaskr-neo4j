@@ -12,7 +12,7 @@
 
     ~ How do I use it?
 
-      1. install and start [neo4j](http://neo4j.com/)
+      1. download, install and start neo4j from http://neo4j.com
 
       2. clone the repo and step into it
 
@@ -45,3 +45,5 @@
 [nigelsmall/py2neo](https://github.com/nigelsmall/py2neo) [![GitHub stars](https://img.shields.io/github/stars/nigelsmall/py2neo.svg?style=social&label=Star)](https://github.com/nigelsmall/py2neo)
 
 [nicolewhite/neo4j-flask](https://github.com/nicolewhite/neo4j-flask) [![GitHub stars](https://img.shields.io/github/stars/nicolewhite/neo4j-flask.svg?style=social&label=Star)](https://github.com/nicolewhite/neo4j-flask)
+
+[neo4j](http://neo4j.com/)
