@@ -1,5 +1,2 @@
-# Compiled files
 __pycache__/
-
-# Packaging
 venv/
