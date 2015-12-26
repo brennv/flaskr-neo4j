@@ -1,5 +1,5 @@
 ![travisCI](https://travis-ci.org/brennan-v-/flaskr-neo4j.svg) [![Codecov](https://img.shields.io/codecov/c/github/brennan-v-/flaskr-neo4j.svg)](https://codecov.io/github/brennan-v-/flaskr-neo4j?branch=master)
- ![pythons](https://img.shields.io/badge/python-2.7%2C%203.3%2C%203.4%2C%203.5%2C%203.5--dev-blue.svg)
+ ![python](https://img.shields.io/badge/python-2.7%2C%203.3%2C%203.4%2C%203.5%2C%203.5--dev-blue.svg) ![neo4j](https://img.shields.io/badge/neo4j-2.0.4%2C%202.1.8-blue.svg)
 
                          / flaskr-neo4j /
 
