@@ -5,10 +5,31 @@ python:
   - "3.4"
   - "3.5"
   - "3.5-dev" # 3.5 development branch
-services:
-  - neo4j
+# services:
+#   - neo4j
+
+env:
+  # test across multiple versions of Neo4j:
+  - NEO4J_VERSION="2.3.1"
+  - NEO4J_VERSION="2.2.7"
+  - NEO4J_VERSION="2.1.8"
+  - NEO4J_VERSION="2.0.4"
+
+matrix:
+  # but we may want to allow our tests to fail against *some* Neo4j versions,
+  # e.g. due to unstability, bugs, or breaking changes for our test code.
+  allow_failures:
+    - env: NEO4J_VERSION="2.3.1" 
+    - env: NEO4J_VERSION="2.2.7" 
+
 before_install:
+  # install Neo4j locally:
+  - wget dist.neo4j.org/neo4j-community-$NEO4J_VERSION-unix.tar.gz
+  - tar -xzf neo4j-community-$NEO4J_VERSION-unix.tar.gz
+  - neo4j-community-$NEO4J_VERSION/bin/neo4j start
+  # install code coverage
   - pip install codecov
+
 install: "pip install -r requirements.txt"
 script:
   - coverage run tests.py
