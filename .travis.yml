@@ -8,6 +8,7 @@ python:
 # services:
 #   - neo4j
 
+# services workaround adapted from https://github.com/thingdom/node-neo4j/blob/v2/.travis.yml
 env:
   # test across multiple versions of Neo4j:
   # - NEO4J_VERSION="2.3.1"
