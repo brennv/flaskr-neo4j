@@ -19,7 +19,8 @@ matrix:
   # but we may want to allow our tests to fail against *some* Neo4j versions,
   # e.g. due to unstability, bugs, or breaking changes for our test code.
   allow_failures:
-    - env: NEO4J_VERSION="2.0.4"  # seems to have transaction bugs
+    - env: NEO4J_VERSION="2.3.1" 
+    - env: NEO4J_VERSION="2.2.7" 
 
 before_install:
   # install Neo4j locally:
