@@ -42,8 +42,8 @@
 
 [mitsuhiko/flask/examples/flaskr](https://github.com/mitsuhiko/flask/tree/master/examples/flaskr/) [![GitHub stars](https://img.shields.io/github/stars/mitsuhiko/flask.svg?style=social&label=Star)](https://github.com/mitsuhiko/flask)
 
+[neo4j/neo4j](https://github.com/neo4j/neo4j) [![GitHub stars](https://img.shields.io/github/stars/neo4j/neo4j.svg?style=social&label=Star)](https://github.com/neo4j/neo4j)
+
 [nigelsmall/py2neo](https://github.com/nigelsmall/py2neo) [![GitHub stars](https://img.shields.io/github/stars/nigelsmall/py2neo.svg?style=social&label=Star)](https://github.com/nigelsmall/py2neo)
 
 [nicolewhite/neo4j-flask](https://github.com/nicolewhite/neo4j-flask) [![GitHub stars](https://img.shields.io/github/stars/nicolewhite/neo4j-flask.svg?style=social&label=Star)](https://github.com/nicolewhite/neo4j-flask)
-
-[neo4j](http://neo4j.com/)
